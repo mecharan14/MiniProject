@@ -1,0 +1,135 @@
+@media screen and (max-width: 667px) {
+    body {
+        overflow-x: hidden !important;
+		
+		overflow:scroll;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+	/* .logo{
+		width: 10vw;
+		height: 10vw;
+	} */
+}
+
+/* .logo{
+	width: 5vw; 
+	height: 5vw;
+} */
+	
+	.top-bar{
+		background:rgb(64, 61, 52);
+		height:2.8rem;
+		padding:.5rem 0;
+		color:white;
+	}
+	.top-bar a{
+		text-decoration:none;
+		font-size:1.2rem;
+	}
+	
+	.bg{ background-color:#FECC26 ;color:black;}
+	.bg1{ background-color:rgb(64, 61, 52);color:white;}
+	
+	.navbar-brand{
+		float: left;
+    	padding: 12px 15px;
+    	font-size: 32px;
+    	line-height: 21px;
+    	height: 3rem;
+    	max-width: 220px;
+    	display: table;
+    	font-family: 'Krona One', sans-serif;
+    	
+	}
+	
+	.navbar-brand img{
+		height: 3.5vw !important;
+		width:4vw !important;
+	}
+	
+
+	.navbar{
+		font-size:1.2rem;
+		font-weight:900;
+		letter-spacing:.1rem;
+	}
+	.nav-item{ padding:.5rem;}
+	.nav-link:hover{
+		background-color:rgb(64, 61, 52);
+		color:white!important;
+		border-radius:10px;
+	}
+	
+	#carousel{box-shadow:0.5rem 1rem rbga(0,0,0,.1);}
+	
+	.carousel-inner{max-height:52rem!important;}
+	
+	.carousel-item-next,
+	.carousel-item-prev,
+	.carousel-item.active{ transition:transform 2.2s ease;}
+	
+	#features{
+		width:100%;
+		height:400px;
+		background-image:url(images/banner1.jpg);
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:contain;
+		background-attachment:fixed;
+		
+		
+	}
+	
+	.dropdown-item{	font-weight:600; background-color:rgb(64, 61, 52);color:white;}
+	.dropdown-item:hover{background-color:rgb(255, 187, 0);color:black!important;}
+	.txtfont{font-family: 'Abril Fatface', cursive;}
+	.links{text-decoration:none;color:white;}
+	a.links:hover{color:rgb(255, 187, 0);}
+	.txtblack{color:black;}
+	.navbartxt{font-family: 'Volkhov', serif;;font-weight:bold;text-decoration:none;color:black;}
+	.dropdowntxt{font-family: 'Volkhov', serif;font-weight:bold;font-size:1.5rem;text-decoration:none;} 
+	a.dropdowntxt:hover{background-color:rgb(64, 61, 52);}
+	
+	.card-img{
+		background-repeat:no-repeat;	
+	}
+	
+	.about-us {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-us img {vertical-align: middle;}
+
+.about-us .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+	
+
+.page-footer{
+	position: sticky;
+}
+
+.links{
+	text-decoration: none;
+	color: white;
+}	
+
+.outer-container{
+	width: 100%;
+	height: 100%;
+	background-image: url('images/aboutusbanner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius:8px; 
+}

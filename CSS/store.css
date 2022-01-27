@@ -1,0 +1,30 @@
+@media screen and (max-width: 667px) {
+body {
+	overflow-x: hidden!important;
+	overflow:scroll;
+    }
+    
+.container {
+	max-width: 100%!important;
+    overflow-x: hidden!important;
+    }
+}
+
+.top-bar{
+		background:rgb(64, 61, 52);
+		height:2.8rem;
+		padding:.5rem 0;
+		color:white;
+}
+.top-link{
+	text-decoration: none;
+	color:white;
+}
+
+a.top-link:hover{
+	color: #82b440;
+}
+.bg{
+	background-color:  #82b440;
+	color: black;
+}
